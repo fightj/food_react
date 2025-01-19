@@ -1,0 +1,25 @@
+.custom-navbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1030; /* 다른 요소 위에 표시되도록 z-index 설정 */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* 상단 그림자 효과 */
+  }
+  
+  .navbar {
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+  }
+  
+  form .form-control {
+    max-width: 200px;
+  }
+  
